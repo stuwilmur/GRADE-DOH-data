@@ -1,0 +1,4 @@
+node_modules/*
+scratch.cjs
+src/.DS_Store
+.DS_Store

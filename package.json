@@ -1,0 +1,29 @@
+{
+  "name": "grade-doh-data",
+  "version": "0.1.0",
+  "description": "Core base data for the GRADE Determinants of Health model",
+  "type": "module",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stuwilmur/GRADE-DOH-data.git"
+  },
+  "author": "Stuart Murray",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stuwilmur/GRADE-DOH-data/issues"
+  },
+  "homepage": "https://github.com/stuwilmur/GRADE-DOH-data#readme",
+  "devDependencies": {
+    "eslint": "^8.37.0",
+    "eslint-config-google": "^0.14.0",
+    "jest": "^29.5.0"
+  },
+  "dependencies": {
+    "d3-dsv": "^3.0.1"
+  }
+}
