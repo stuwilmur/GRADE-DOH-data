@@ -1,3 +1,9 @@
-import { csvParse } from 'd3-dsv';
+import { autoType, csvParse } from 'd3-dsv';
+import { readFileSync } from 'fs';
 
-csvParse('a,b');
+const data = readFileSync('./src/data/BASE data 2022 interpolated.csv', {
+  encoding: 'utf8',
+  flag: 'r',
+});
+const parsed = csvParse(data, autoType);
+console.log(parsed[0]);
