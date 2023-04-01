@@ -4,26 +4,60 @@
   "description": "Core base data for the GRADE Determinants of Health model",
   "type": "module",
   "main": "./src/index.js",
+  "module": "./dist/index.js",
+  "jsdelivr": "./dist/index.js",
+  "files": [
+    "./dist/index.js"
+  ],
   "scripts": {
-    "test": "jest",
-    "start": "node ./src/index.js"
+    "start": "node ./src/index.js",
+    "test": "jest --coverage",
+    "clear_jest": "jest --clearCache",
+    "make-badges": "istanbul-badges-readme",
+    "build": "parcel build",
+    "lint": "eslint src/*.js",
+    "clean": "rm -rf dist/*",
+    "prepublish": "npm run build",
+    "prebuild": "npm run test && npm run clean",
+    "pretest": "npm run lint",
+    "posttest": "npm run make-badges",
+    "publish_patch": "npm install && npm version patch && npm publish && git push",
+    "publish_minor": "npm install && npm version minor && npm publish && git push",
+    "publish_major": "npm install && npm version major && npm publish && git push"
+  },
+  "staticFiles": {
+    "staticPath": "data",
+    "staticOutPath": "data"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/stuwilmur/GRADE-DOH-data.git"
   },
-  "author": "Stuart Murray",
-  "license": "ISC",
+  "author": "Stu Murray",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/stuwilmur/GRADE-DOH-data/issues"
   },
   "homepage": "https://github.com/stuwilmur/GRADE-DOH-data#readme",
   "devDependencies": {
+    "@babel/eslint-parser": "^7.19.1",
+    "@babel/plugin-transform-modules-commonjs": "^7.21.2",
     "eslint": "^8.37.0",
     "eslint-config-google": "^0.14.0",
-    "jest": "^29.5.0"
+    "istanbul-badges-readme": "^1.8.5",
+    "jest": "^29.5.0",
+    "parcel": "^2.8.0",
+    "parcel-reporter-static-files-copy": "^1.5.0"
   },
   "dependencies": {
-    "d3-dsv": "^3.0.1"
+    "d3": "^7.8.3"
+  },
+  "jest": {
+    "moduleNameMapper": {
+      "^d3$": "<rootDir>/node_modules/d3/dist/d3.min.js"
+    },
+    "coverageReporters": [
+      "json-summary"
+    ]
   }
 }
