@@ -22,3 +22,9 @@ coverage/lcov-report/index.js.html
 .parcel-cache/d43c1a783b32ded4
 .parcel-cache/data.mdb
 .parcel-cache/lock.mdb
+dist/index.js
+dist/index.js.map
+dist/assets/data/BASE data 27.7.2022 with new POP data.xlsx
+dist/assets/data/BASE data 2022 interpolated.csv
+dist/assets/data/BASE data 2022.csv
+dist/assets/data/BASE data 2022.xlsx
