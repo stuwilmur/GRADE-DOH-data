@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "Core base data for the GRADE Determinants of Health model",
   "type": "module",
-  "main": "./src/index.js",
+  "source": "./src/index.js",
   "module": "./dist/index.js",
   "jsdelivr": "./dist/index.js",
   "files": [
@@ -26,8 +26,8 @@
     "publish_major": "npm install && npm version major && npm publish && git push"
   },
   "staticFiles": {
-    "staticPath": "data",
-    "staticOutPath": "data"
+    "staticPath": "assets",
+    "staticOutPath": "assets"
   },
   "repository": {
     "type": "git",
