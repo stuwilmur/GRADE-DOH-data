@@ -1,4 +1,6 @@
 # GRADE-DOH-data
+[![npm](https://img.shields.io/npm/v/grade-doh-data)](https://www.npmjs.com/package/grade-doh-data) [![](https://data.jsdelivr.com/v1/package/npm/grade-doh-data/badge)](https://www.jsdelivr.com/package/npm/grade-doh-data)
+
 | Statements                  | Branches                | Functions                 | Lines             |
 | --------------------------- | ----------------------- | ------------------------- | ----------------- |
 | ![Statements](https://img.shields.io/badge/statements-100%25-brightgreen.svg?style=flat) | ![Branches](https://img.shields.io/badge/branches-100%25-brightgreen.svg?style=flat) | ![Functions](https://img.shields.io/badge/functions-100%25-brightgreen.svg?style=flat) | ![Lines](https://img.shields.io/badge/lines-100%25-brightgreen.svg?style=flat) |
