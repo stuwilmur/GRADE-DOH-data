@@ -1,6 +1,6 @@
 {
   "name": "grade-doh-data",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Core base data for the GRADE Determinants of Health model",
   "type": "module",
   "source": "./src/index.js",
