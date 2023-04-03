@@ -18,7 +18,7 @@
 - adding the column heading `countryyearcode` to the first column;
 - replacing all instances of `#N/A` and `#VALUE!` with `NaN` using find and replace.
 
-4. The final base data CSV file [Base data 2022 interpolated.csv](https://github.com/stuwilmur/GRADE-DOH-data/blob/main/assets/data/BASE%20data%202022%20interpolated.csv), which is used to drive the model, was generated from [Base data 2022.csv](https://github.com/stuwilmur/GRADE-DOH-data/blob/main/src/data/BASE%20data%202022.csv) by using linear interpolation to interpolate undefined (i.e. null or NaN) values for the following columns:
+4. The final base data CSV file [Base data 2022 interpolated.csv](https://github.com/stuwilmur/GRADE-DOH-data/blob/main/data/BASE%20data%202022%20interpolated.csv), which is used to drive the model, was generated from [Base data 2022.csv](https://github.com/stuwilmur/GRADE-DOH-data/blob/main/src/data/BASE%20data%202022.csv) by using linear interpolation to interpolate undefined (i.e. null or NaN) values for the following columns:
 
 - School life expectancy, primary and secondary, both sexes (years);
 - School percent;

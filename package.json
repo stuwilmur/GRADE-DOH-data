@@ -26,8 +26,8 @@
     "publish_major": "npm install && npm version major && npm publish && git push"
   },
   "staticFiles": {
-    "staticPath": "assets",
-    "staticOutPath": "assets"
+    "staticPath": "data",
+    "staticOutPath": "data"
   },
   "repository": {
     "type": "git",
