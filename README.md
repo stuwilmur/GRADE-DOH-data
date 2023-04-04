@@ -10,3 +10,8 @@ This package bundles the opulation and economic data for the GRADE Determinants 
 
 ## Data
 [Notes on the data sources and pipelines](https://github.com/stuwilmur/GRADE-DOH-data/blob/main/DATA.md)
+
+## Try it
+
+[JSFiddle](https://jsfiddle.net/zg6Lq4af/)
+[Observable](https://observablehq.com/@stuwilmur/grade-determinants-of-health-data)
