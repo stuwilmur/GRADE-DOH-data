@@ -4,10 +4,10 @@
   "description": "Core base data for the GRADE Determinants of Health model",
   "type": "module",
   "source": "./src/index.js",
-  "module": "./dist/index.js",
-  "jsdelivr": "./dist/index.js",
+  "module": "./dist/module.js",
+  "jsdelivr": "./dist/module.js",
   "files": [
-    "./dist/index.js"
+    "./dist/module.js"
   ],
   "scripts": {
     "start": "node ./src/index.js",
