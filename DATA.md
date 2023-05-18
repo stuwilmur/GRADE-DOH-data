@@ -24,6 +24,6 @@
 - School percent;
 - GRpcUNUWIDER 2022.
 
-The interpolation process was performed using [the Observable notebook interpolate-grade-base-data-2022]([https://observablehq.com/@stuwilmur/interpolate-grade-base-data-2022?collection=@stuwilmur/work-in-progress](https://observablehq.com/@stuwilmur/interpolate-grade-base-data-2022))
+The interpolation process was performed using [the Observable notebook interpolate-grade-base-data-2022](https://observablehq.com/@stuwilmur/interpolate-grade-base-data-2022)
 
 5. Finally, the CSV file is packaged as a string [in the source](https://github.com/stuwilmur/GRADE-DOH-data/blob/main/src/data/data.js).
