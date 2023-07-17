@@ -30,6 +30,6 @@
 
 7. The education data CSV file was prepared from the previous workbook, by replacing all instances of `#N/A` with `NaN`.
 
-8. The Base data CSV and education data CSV files were knitted together, by matching on `countryyearcode`, to produce the file [All_data.csv](https://github.com/stuwilmur/GRADE-DOH-data/blob/main/assets/data/All_data.csv).
+8. The Base data CSV and education data CSV files were knitted together using [this notebook](https://observablehq.com/@stuwilmur/knit-grade-base-and-education-data), by matching on `countryyearcode`, to produce the file [All_data.csv](https://github.com/stuwilmur/GRADE-DOH-data/blob/main/assets/data/All_data.csv).
 
 9. Finally, the CSV file is packaged as a string [in the source](https://github.com/stuwilmur/GRADE-DOH-data/blob/main/src/data/data.js).
