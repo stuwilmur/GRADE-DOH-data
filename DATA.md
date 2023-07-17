@@ -18,10 +18,18 @@
 - adding the column heading `countryyearcode` to the first column;
 - replacing all instances of `#N/A` and `#VALUE!` with `NaN` using find and replace.
 
-4. The final base data CSV file [Base data 2022 interpolated.csv](https://github.com/stuwilmur/GRADE-DOH-data/blob/main/assets/data/BASE%20data%202022%20interpolated.csv), which is used to drive the model, was generated from [Base data 2022.csv](https://github.com/stuwilmur/GRADE-DOH-data/blob/main/assets/data/BASE%20data%202022.csv) by using linear interpolation to interpolate undefined (i.e. null or NaN) values for the following columns:
+4. The final base data CSV file [Base data 2022 interpolated.csv](https://github.com/stuwilmur/GRADE-DOH-data/blob/main/assets/data/BASE%20data%202022%20interpolated.csv), which is used to drive the model, was generated from [Base data 2022.csv](https://github.com/stuwilmur/GRADE-DOH-data/blob/main/assets/data/BASE%20data%202022.csv) by using linear interpolation implemented [this notebook](https://observablehq.com/@stuwilmur/interpolate-grade-base-data-2022) to interpolate undefined (i.e. null or NaN) values for the following columns:
 
 - School life expectancy, primary and secondary, both sexes (years);
 - School percent;
 - GRpcUNUWIDER 2022.
 
-5. Finally, the CSV file is packaged as a string [in the source](https://github.com/stuwilmur/GRADE-DOH-data/blob/main/src/data/data.js).
+5. The origin education data sheet [simulation of long run education.xlsx](https://github.com/stuwilmur/GRADE-DOH-data/blob/main/assets/data/simulation%20of%20long%20run%20education.xlsx) was prepared by Stephen Hall. 
+
+6. The intermediate education data sheet [School_data.xlsx](https://github.com/stuwilmur/GRADE-DOH-data/blob/main/assets/data/School_data.xlsx) was prepared by selecting the `countrycode`, `countryname`, `year`, `Out_school_prim`, `Out_school_prim` and `Out_school_upper` columns from the "primary" sheet in the previous workbook, and adding the computed "in-school" columns.
+
+7. The education data CSV file was prepared from the previous workbook, by replacing all instances of `#N/A` with `NaN`.
+
+8. The Base data CSV and education data CSV files were knitted together, by matching on `countryyearcode`, to produce the file [All_data.csv](https://github.com/stuwilmur/GRADE-DOH-data/blob/main/assets/data/All_data.csv).
+
+9. Finally, the CSV file is packaged as a string [in the source](https://github.com/stuwilmur/GRADE-DOH-data/blob/main/src/data/data.js).
