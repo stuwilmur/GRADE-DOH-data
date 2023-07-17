@@ -24,7 +24,6 @@
 - School percent;
 - GRpcUNUWIDER 2022.
 
-<<<<<<< HEAD
 5. The origin education data sheet [simulation of long run education.xlsx](https://github.com/stuwilmur/GRADE-DOH-data/blob/main/assets/data/simulation%20of%20long%20run%20education.xlsx) was prepared by Stephen Hall. 
 
 6. The intermediate education data sheet [School_data.xlsx](https://github.com/stuwilmur/GRADE-DOH-data/blob/main/assets/data/School_data.xlsx) was prepared by selecting the `countrycode`, `countryname`, `year`, `Out_school_prim`, `Out_school_prim` and `Out_school_upper` columns from the "primary" sheet in the previous workbook, and adding the computed "in-school" columns.
@@ -34,8 +33,3 @@
 8. The Base data CSV and education data CSV files were knitted together, by matching on `countryyearcode`, to produce the file [All_data.csv](https://github.com/stuwilmur/GRADE-DOH-data/blob/main/assets/data/All_data.csv).
 
 9. Finally, the CSV file is packaged as a string [in the source](https://github.com/stuwilmur/GRADE-DOH-data/blob/main/src/data/data.js).
-=======
-The interpolation process was performed using [the Observable notebook interpolate-grade-base-data-2022](https://observablehq.com/@stuwilmur/interpolate-grade-base-data-2022)
-
-5. Finally, the CSV file is packaged as a string [in the source](https://github.com/stuwilmur/GRADE-DOH-data/blob/main/src/data/data.js).
->>>>>>> caac8f5c723163f7b859f1efc3f09cbb67897fff
