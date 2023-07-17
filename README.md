@@ -13,6 +13,6 @@ This package bundles the opulation and economic data for the GRADE Determinants 
 
 ## Try it
 
-[JSFiddle](https://jsfiddle.net/zg6Lq4af/)
+[JSFiddle](https://jsfiddle.net/vr2mjqLc/)
 
 [Observable](https://observablehq.com/@stuwilmur/grade-determinants-of-health-data)
