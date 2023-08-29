@@ -1,4 +1,4 @@
-# Data sources and pipeline
+# Data sources and pipeline for major versions <= 1
 
 1. The origin base data database Excel workbook [BASE data 27.7.2022 with new POP data.xlsx](./assets/data/BASE%20data%2027.7.2022%20with%20new%20POP%20data.xlsx) was prepared by Bernadette O'Hare, using data from the WDI and UNU WIDER datasets. Detailed notes on the data sources and preparation are contained in the _Intro and data sources_ sheet of the workbook.
 2. The intermediate base data database Excel workbook [Base data 2022.xlsx](./assets/data/BASE%20data%202022.xlsx) was prepared by taking a copy of the origin base data database [BASE data 27.7.2022](./assets/data/BASE%20data%2027.7.2022%20with%20new%20POP%20data.xlsx), and calculating the following columns in the _2022 pop data_ sheet (those with red headings):
