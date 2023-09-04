@@ -7,8 +7,7 @@
 - exporting the _data_ sheet to .csv format;
 - making the spacing in column heading names consistent;
 - renaming the column heading `id` to `countryyearcode` in the first column;
-- replacing all instances of `#N/A`, `..` and `#VALUE!` with `NaN` using find and replace;
-- deleting all double quotes characters, except those in the column heading row. 
+- replacing all instances of `#N/A`, `..` and `#VALUE!` with `NaN` using find and replace.
 
 4. The final base data CSV file [Base data 2023 interpolated.csv](./assets/data/BASE%20data%202023%20interpolated.csv), which is used to drive the model, was generated from [Base data 2023.csv](./assets/data/BASE%20data%202023.csv) by using linear interpolation implemented [this notebook](https://observablehq.com/@grade/interpolate-grade-base-data-2023) to interpolate undefined (i.e. null or NaN) values for the following columns:
 
