@@ -9,10 +9,6 @@
 - renaming the column heading `id` to `countryyearcode` in the first column;
 - replacing all instances of `#N/A`, `..` and `#VALUE!` with `NaN` using find and replace.
 
-4. The final base data CSV file [Base data 2023 interpolated.csv](./assets/data/BASE%20data%202023%20interpolated.csv), which is used to drive the model, was generated from [Base data 2023.csv](./assets/data/BASE%20data%202023.csv) by using linear interpolation implemented [this notebook](https://observablehq.com/@grade/interpolate-grade-base-data-2023) to interpolate undefined (i.e. null or NaN) values for the following columns:
-
-- School life expectancy, primary and secondary, both sexes (years);
-- School percent;
-- GRPC.
+4. The final base data CSV file [Base data 2023 interpolated.csv](./assets/data/BASE%20data%202023%20interpolated.csv), which is used to drive the model, was generated from [Base data 2023.csv](./assets/data/BASE%20data%202023.csv) by using linear interpolation implemented [this notebook](https://observablehq.com/@grade/interpolate-grade-base-data-2023) to interpolate undefined (i.e. null or NaN) values for _GRPC_ and _all school measures_, i.e. in-school measures and school populations.
 
 5. Finally, the CSV file is packaged as a string [in the source](./src/data/data.js).
