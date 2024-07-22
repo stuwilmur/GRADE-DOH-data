@@ -1,3 +1,4 @@
+![GRADE project logo](https://github.com/stuwilmur/GRADE-DOH-data/blob/main/grade-logo.png?raw=true)
 # GRADE-DOH-data
 [![npm](https://img.shields.io/npm/v/grade-doh-data)](https://www.npmjs.com/package/grade-doh-data) [![](https://data.jsdelivr.com/v1/package/npm/grade-doh-data/badge)](https://www.jsdelivr.com/package/npm/grade-doh-data)
 
