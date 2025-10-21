@@ -10,8 +10,9 @@
 This package bundles the opulation and economic data for the GRADE Determinants of Health model; this data is consumed by the GRADE-DOH model, implemented in the [GRADE-DOH-model package](https://github.com/stuwilmur/GRADE-DOH-model).
 
 ## Data
-- [Notes on the data sources and pipelines for current version](https://github.com/stuwilmur/GRADE-DOH-data/blob/main/DATA.md)
-- [Notes on the data sources and pipelines for previous versions](https://github.com/stuwilmur/GRADE-DOH-data/blob/main/DATA_V1.md)
+- Dataset prepared by Bernadette O'Hare, October 2025.
+- [Notes on the data sources and pipelines for Versions < 2.x.x](https://github.com/stuwilmur/GRADE-DOH-data/blob/main/DATA_V1.md)
+- [Notes on the data sources and pipelines for 2.x.x < Version <=  3.x.x](https://github.com/stuwilmur/GRADE-DOH-data/blob/main/DATA_V2.md)
 
 ## Try it
 
