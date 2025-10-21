@@ -12,7 +12,7 @@ This package bundles the opulation and economic data for the GRADE Determinants 
 ## Data
 - Dataset prepared by Bernadette O'Hare, October 2025.
 - [Notes on the data sources and pipelines for Versions < 2.x.x](https://github.com/stuwilmur/GRADE-DOH-data/blob/main/DATA_V1.md)
-- [Notes on the data sources and pipelines for Version 2.x.x](https://github.com/stuwilmur/GRADE-DOH-data/blob/main/DATA_V2.md)
+- [Notes on the data sources and pipelines for 2.x.x < Version <=  3.x.x](https://github.com/stuwilmur/GRADE-DOH-data/blob/main/DATA_V2.md)
 
 ## Try it
 
