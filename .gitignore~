@@ -24,5 +24,3 @@ coverage/lcov-report/index.js.html
 .parcel-cache/lock.mdb
 dist/*
 src/scratch.js
-.parcel-cache/*.*
-.parcel-cache/*
